@@ -6,8 +6,13 @@
   "directories": {
   },
   "keywords": ["JSON", "stringify"],
-  "repository": "git://github.com/hbouvier/JSONUtil",
-  "engines": { "node": ">= 0.4.1 < 0.7.0" }
+  "repository": {
+      "type":"git",
+      "url":"git@github.com:hbouvier/node-JSONUtil.git"
+  },
+  "engines": { 
+      "node": ">= 0.4.1 < 0.7.0"
+  }
   "dependencies": {
   }
 }
