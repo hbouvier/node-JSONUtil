@@ -1,19 +1,17 @@
 {
-  "name": "JSONUtil",
-  "description": "A JSON Stringify that does not throw an exception when circular reference are found",
-  "version": "0.0.1",
   "author": "Henri Bouvier",
-  "directories": {
-  },
-  "keywords": ["JSON", "stringify"],
+  "name": "JSONUtil",
+  "description": "A JSON Stringify that does not throw an exception when facing circular references",
+  "version": "0.0.1",
   "repository": {
-      "type":"git",
-      "url":"git@github.com:hbouvier/node-JSONUtil.git"
+    "type": "git",
+    "url": "git@github.com:hbouvier/node-JSONUtil.git"
   },
-  "engines": { 
-      "node": ">= 0.4.1 < 0.7.0"
-  }
-  "dependencies": {
+  "main": "JSONUtil",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
   }
 }
-
